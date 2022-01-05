@@ -46,7 +46,7 @@ const data = [
     name: 'John Brown sr.',
     age: 60,
     address: 'New York No. 1 Lake Park',
-    children: [
+    childrenColumnName: [
       {
         key: 11,
         name: 'John Brown',
@@ -66,6 +66,7 @@ const data = [
             address: 'New York No. 3 Lake Park',
           },
         ],
+        indentSize:10
       },
       {
         key: 13,
